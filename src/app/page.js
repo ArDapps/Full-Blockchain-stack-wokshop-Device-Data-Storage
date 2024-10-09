@@ -63,12 +63,23 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 p-8 flex items-center justify-center">
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 transform transition-transform duration-500 hover:scale-105">
-        {/* Header */}
+        {/* Hero Section */}
         <header className="mb-8 text-center">
           <h1 className="text-4xl font-bold text-gray-900">
             Tecno Blocks Dashboard
           </h1>
-          <p className="mt-2 text-gray-600">Manage and Monitor Your Devices</p>
+          <p className="mt-2 text-gray-600">
+            Welcome to Tecno Blocks, your one-stop solution for managing and
+            monitoring all your IoT devices. Easily connect your wallet and view
+            all your registered devices.
+          </p>
+          <p className="mt-2 text-gray-600">
+            The market fee to view device data is{" "}
+            <strong className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white px-4 py-1 rounded m-3">
+              0.0001 ETH
+            </strong>
+            .
+          </p>
         </header>
 
         {/* Wallet Section */}
